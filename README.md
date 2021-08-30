@@ -162,7 +162,7 @@ X-XSS-Protection: 1; mode=block
 
 23. Does this response have a user session associated to it?
 
-    - Yes, Set-Cookie SessionID=5
+    - Yes, SessionID=5
 
 24. What kind of content is likely to be in the [page content] response body?
 
@@ -208,7 +208,7 @@ Answer the following questions about multi-container deployment:
 
 32. Which type of SQL query would we use to enter new data into a table? (You don't need a full query, just the first part of the statement.)
 
-    - `INSERT INTO table_name (column_1, column_2) VALUES(value_1, value_2);`
+    - `INSERT INTO table_name (column_1, column_2) VALUES (value_1, value_2);`
 
 33. Why would we never run `DELETE FROM <table-name>;` by itself?
 
@@ -366,7 +366,7 @@ Navigate to `~/Documents` in a terminal to save your cookies.
 
 1. Construct a `curl` request that enters two forms: `"log={username}"` and `"pwd={password}"` and goes to `http://localhost:8080/wp-login.php`. Enter Ryan's credentials where there are placeholders.
 
-    - **Question:** Did you see any obvious confirmation of a login? No.
+    - **Question:** Did you see any obvious confirmation of a login? There was no obvious notification of login.
     - Command: `curl --form "log=Ryan" --form "pwd=123456" http://localhost:8080/wp-login.php
     `
 2. Construct the same `curl` request, but this time add the option and path to save your cookie: `--cookie-jar ./ryancookies.txt`. This option tells `curl` to save the cookies to the `ryancookies.txt` text file.
