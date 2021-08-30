@@ -10,23 +10,23 @@ Answer the following questions about the HTTP request and response process.
 
 1. What type of architecture does the HTTP request and response process occur in?
 
-   Client-Server Architecture
+   - Client-Server Architecture
 
 2. What are the different parts of an HTTP request? 
 
-   Request line, header and body.
+   - Request line, header and body.
 
 3. Which part of an HTTP request is optional?
 
-   The request body is optional.
+   - The request body is optional.
 
 4. What are the three parts of an HTTP response?
 
-   Status line, header and body.
+   - Status line, header and body.
 
 5. Which number class of status codes represents errors?
 
-   Status codes of the fourth class represents errors.
+   - Status codes of the fourth class represents errors.
 
 6. What are the two most common request methods that a security professional will encounter?
 
@@ -34,15 +34,15 @@ Answer the following questions about the HTTP request and response process.
 
 7. Which type of HTTP request method is used for sending data?
 
-   POST request method.
+   - POST request method.
 
 8. Which part of an HTTP request contains the data being sent to the server?
 
-   The request body contains the data being sent to the server.
+   - The request body contains the data being sent to the server.
 
 9. In which part of an HTTP response does the browser receive the web code to generate and style a web page?
 
-   Response body.
+   - Response body.
 
 #### Using curl
 
@@ -50,29 +50,29 @@ Answer the following questions about `curl`:
 
 10. What are the advantages of using `curl` over the browser?
 
--  cURL supports a range of common Internet protocols, currently including HTTP, HTTPS, FTP, FTPS, SCP, SFTP, TFTP, LDAP, LDAPS, DICT, TELNET, FILE, IMAP, POP3, SMTP and RTSP. Wget supports HTTP(S) and FTP.
--  cURL provides APIs for more than 40 languages, including C/C++, Java, PHP and Python that can be used by programmers inside their own code.
--  cURL is bidirectional. It can be used to upload files and send data. Wget only offers plain HTTP POST support.
--  cURL is made to do single-shot transfers of data. It transfers just the URLs that the user specifies, and does not contain any recursive downloading logic nor any sort of HTML parser.
--   cURL can be built with one out of thirteen different SSL/TLS libraries, and it offers more control and wider support for protocol details. Wget supports only GnuTLS or OpenSSL for SSL/TLS support.
--   cURL supports more HTTP authentication methods, especially over HTTP proxies: Basic, Digest, NTLM and Negotiate.
--   cURL offers and performs decompression of Transfer-Encoded HTTP, wget doesn't.
+    -  cURL supports a range of common Internet protocols, currently including HTTP, HTTPS, FTP, FTPS, SCP, SFTP, TFTP, LDAP, LDAPS, DICT, TELNET, FILE, IMAP, POP3, SMTP and RTSP. Wget supports HTTP(S) and FTP.
+    -  cURL provides APIs for more than 40 languages, including C/C++, Java, PHP and Python that can be used by programmers inside their own code.
+    -  cURL is bidirectional. It can be used to upload files and send data. Wget only offers plain HTTP POST support.
+    -  cURL is made to do single-shot transfers of data. It transfers just the URLs that the user specifies, and does not contain any recursive downloading logic nor any sort of HTML parser.
+    -   cURL can be built with one out of thirteen different SSL/TLS libraries, and it offers more control and wider support for protocol details. Wget supports only GnuTLS or OpenSSL for SSL/TLS support.
+    -   cURL supports more HTTP authentication methods, especially over HTTP proxies: Basic, Digest, NTLM and Negotiate.
+    -   cURL offers and performs decompression of Transfer-Encoded HTTP, wget doesn't.
 
 11. Which `curl` option is used to change the request method?
 
-    You can use the -X or --request command-line options followed by the method name to change the request method.
+    - You can use the -X or --request command-line options followed by the method name to change the request method.
 
 12. Which `curl` option is used to set request headers?
 
-    Use the -H option and set the header name and value in enclosed quotes.
+    - Use the -H option and set the header name and value in enclosed quotes.
 
 13. Which `curl` option is used to view the response header?
 
-    You can use the -I  flag to view the response headers.
+    - You can use the -I  flag to view the response headers.
 
 14. Which request method might an attacker use to figure out which HTTP requests an HTTP server will accept?
 
-    The GET or OPTION request method.
+    - The GET or OPTION request method.
 
 #### Sessions and Cookies
 
@@ -119,15 +119,15 @@ username=Barbara&password=password
 
 17. What is the request method?
 
-    POST.
+    - POST.
 
 18. Which header expresses the client's preference for an encrypted response?
 
-    Upgrade-Insecure-Requests.
+    - Upgrade-Insecure-Requests.
 
 19. Does the request have a user session associated with it?
 
-    No.
+    - No, there is no session associated with the request.
 
 20. What kind of data is being sent from this request body?
 
@@ -204,11 +204,11 @@ Answer the following questions about multi-container deployment:
 
 31. Which type of SQL query would we use to see all of the information within a table called `customers`?
 
-    - SELECT column_name FROM customers;
+    - `SELECT column_name FROM customers;`
 
 32. Which type of SQL query would we use to enter new data into a table? (You don't need a full query, just the first part of the statement.)
 
-    - INSERT INTO table_name (column_1, column_2) VALUES(value_1, value_2);
+    - `INSERT INTO table_name (column_1, column_2) VALUES(value_1, value_2);`
 
 33. Why would we never run `DELETE FROM <table-name>;` by itself?
 
